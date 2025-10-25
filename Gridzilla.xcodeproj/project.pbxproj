@@ -14,19 +14,11 @@
 			remoteGlobalIDString = E4FBCAA42EACAE4C009BB0D3;
 			remoteInfo = Gridzilla;
 		};
-		E4FBCABD2EACAE4E009BB0D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4FBCA9D2EACAE4C009BB0D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4FBCAA42EACAE4C009BB0D3;
-			remoteInfo = Gridzilla;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E4FBCAA52EACAE4C009BB0D3 /* Gridzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FBCAB22EACAE4E009BB0D3 /* GridzillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridzillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4FBCABC2EACAE4E009BB0D3 /* GridzillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridzillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		E4FBCAB52EACAE4E009BB0D3 /* GridzillaTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GridzillaTests;
-			sourceTree = "<group>";
-		};
-		E4FBCABF2EACAE4E009BB0D3 /* GridzillaUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GridzillaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4FBCAB92EACAE4E009BB0D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				E4FBCAA72EACAE4C009BB0D3 /* Gridzilla */,
 				E4FBCAB52EACAE4E009BB0D3 /* GridzillaTests */,
-				E4FBCABF2EACAE4E009BB0D3 /* GridzillaUITests */,
 				E4FBCAA62EACAE4C009BB0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				E4FBCAA52EACAE4C009BB0D3 /* Gridzilla.app */,
 				E4FBCAB22EACAE4E009BB0D3 /* GridzillaTests.xctest */,
-				E4FBCABC2EACAE4E009BB0D3 /* GridzillaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = E4FBCAB22EACAE4E009BB0D3 /* GridzillaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E4FBCABB2EACAE4E009BB0D3 /* GridzillaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4FBCACC2EACAE4E009BB0D3 /* Build configuration list for PBXNativeTarget "GridzillaUITests" */;
-			buildPhases = (
-				E4FBCAB82EACAE4E009BB0D3 /* Sources */,
-				E4FBCAB92EACAE4E009BB0D3 /* Frameworks */,
-				E4FBCABA2EACAE4E009BB0D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4FBCABE2EACAE4E009BB0D3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E4FBCABF2EACAE4E009BB0D3 /* GridzillaUITests */,
-			);
-			name = GridzillaUITests;
-			packageProductDependencies = (
-			);
-			productName = GridzillaUITests;
-			productReference = E4FBCABC2EACAE4E009BB0D3 /* GridzillaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 26.0;
 					};
 					E4FBCAB12EACAE4E009BB0D3 = {
-						CreatedOnToolsVersion = 26.0;
-						TestTargetID = E4FBCAA42EACAE4C009BB0D3;
-					};
-					E4FBCABB2EACAE4E009BB0D3 = {
 						CreatedOnToolsVersion = 26.0;
 						TestTargetID = E4FBCAA42EACAE4C009BB0D3;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				E4FBCAA42EACAE4C009BB0D3 /* Gridzilla */,
 				E4FBCAB12EACAE4E009BB0D3 /* GridzillaTests */,
-				E4FBCABB2EACAE4E009BB0D3 /* GridzillaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E4FBCAB02EACAE4E009BB0D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4FBCABA2EACAE4E009BB0D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4FBCAB82EACAE4E009BB0D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = E4FBCAA42EACAE4C009BB0D3 /* Gridzilla */;
 			targetProxy = E4FBCAB32EACAE4E009BB0D3 /* PBXContainerItemProxy */;
-		};
-		E4FBCABE2EACAE4E009BB0D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4FBCAA42EACAE4C009BB0D3 /* Gridzilla */;
-			targetProxy = E4FBCABD2EACAE4E009BB0D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,46 +429,6 @@
 			};
 			name = Release;
 		};
-		E4FBCACD2EACAE4E009BB0D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79798GRSHW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AT.Soft.GridzillaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Gridzilla;
-			};
-			name = Debug;
-		};
-		E4FBCACE2EACAE4E009BB0D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79798GRSHW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AT.Soft.GridzillaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Gridzilla;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,15 +455,6 @@
 			buildConfigurations = (
 				E4FBCACA2EACAE4E009BB0D3 /* Debug */,
 				E4FBCACB2EACAE4E009BB0D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4FBCACC2EACAE4E009BB0D3 /* Build configuration list for PBXNativeTarget "GridzillaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4FBCACD2EACAE4E009BB0D3 /* Debug */,
-				E4FBCACE2EACAE4E009BB0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
