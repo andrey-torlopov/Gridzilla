@@ -1,8 +1,11 @@
 import Foundation
+import SwiftUI
+import Combine
 
 @MainActor
+@Observable
 final class ImageDetailViewModel: ObservableObject {
-    @Published var selection: Int {
+    var selection: Int {
         didSet {
             let clamped = clamp(selection)
             if selection != clamped {
