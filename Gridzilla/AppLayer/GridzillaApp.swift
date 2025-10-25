@@ -11,7 +11,7 @@ import SwiftUI
 struct GridzillaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
